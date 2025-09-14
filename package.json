@@ -1,0 +1,59 @@
+{
+  "name": "oss-recommender-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for recommending open source projects to AI coding assistants",
+  "main": "dist/index.js",
+  "bin": {
+    "oss-recommender": "dist/index.js",
+    "oss-recommender-cli": "dist/cli.js"
+  },
+  "type": "module",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "watch": "tsx watch src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "ai",
+    "assistant",
+    "open-source",
+    "recommendations",
+    "github",
+    "code-recommendations",
+    "cursor",
+    "claude",
+    "copilot",
+    "ai-tools"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/oss-recommender-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/oss-recommender-mcp/issues"
+  },
+  "homepage": "https://github.com/yourusername/oss-recommender-mcp#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
