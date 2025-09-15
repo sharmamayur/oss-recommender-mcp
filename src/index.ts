@@ -40,7 +40,7 @@ interface RecommendationContext {
   license?: string;
 }
 
-class CursorOSSRecommender {
+class OSSRecommender {
   private githubToken: string;
   private baseURL = "https://api.github.com";
 
@@ -166,7 +166,7 @@ class CursorOSSRecommender {
   }
 }
 
-const recommender = new CursorOSSRecommender();
+const recommender = new OSSRecommender();
 
 // Define MCP tools
 const tools: Tool[] = [

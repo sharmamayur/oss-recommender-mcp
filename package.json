@@ -1,6 +1,6 @@
 {
   "name": "oss-recommender-mcp",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "MCP server for recommending open source projects to AI coding assistants",
   "main": "dist/index.js",
   "bin": {
@@ -33,16 +33,16 @@
     "copilot",
     "ai-tools"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Mayur Sharma",
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/oss-recommender-mcp.git"
+    "url": "git+https://github.com/sharmamayur/oss-recommender-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/oss-recommender-mcp/issues"
+    "url": "https://github.com/sharmamayur/oss-recommender-mcp/issues"
   },
-  "homepage": "https://github.com/yourusername/oss-recommender-mcp#readme",
+  "homepage": "https://github.com/sharmamayur/oss-recommender-mcp#readme",
   "engines": {
     "node": ">=18.0.0"
   },

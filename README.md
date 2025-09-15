@@ -122,7 +122,7 @@ For any other AI tool that supports MCP:
   "mcpServers": {
     "oss-recommender": {
       "command": "npx",
-      "args": ["oss-recommender-mcp"],
+      "args": ["oss-recommender"],
       "env": {
         "GITHUB_TOKEN": "your_github_token_here"
       }
