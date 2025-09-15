@@ -1,6 +1,6 @@
 {
   "name": "oss-recommender-mcp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "MCP server for recommending open source projects to AI coding assistants",
   "main": "dist/index.js",
   "bin": {
@@ -37,7 +37,7 @@
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sharmamayur/oss-recommender-mcp.git"
+    "url": "https://github.com/sharmamayur/oss-recommender-mcp.git"
   },
   "bugs": {
     "url": "https://github.com/sharmamayur/oss-recommender-mcp/issues"

@@ -58,13 +58,13 @@ npm test
 npm pack
 
 # Install globally to test
-npm install -g ./oss-recommender-mcp-1.0.0.tgz
+npm install -g ./oss-recommender-mcp-0.0.2.tgz
 
 # Test the CLI
 oss-recommender --help
 
 # Clean up
-rm oss-recommender-mcp-1.0.0.tgz
+rm oss-recommender-mcp-0.0.2.tgz
 npm uninstall -g oss-recommender-mcp
 ```
 
